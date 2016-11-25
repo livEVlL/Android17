@@ -22,7 +22,7 @@ function initMap() {
         var lng = clickLatLng.lng();
         //alert(lat + " x " + lng);
         document.getElementById('test').innerHTML = lat + " x " + lng;
-        android.getLatLng(lat, lng);
+        android.getLatLng(lat.toString(), lng.toString());
   });
 }
 function goto(newlat, newlng){
